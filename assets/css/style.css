@@ -1,0 +1,18 @@
+/*---------------------------------------------------colors*/
+.top-navbar, .navbar-collapse {
+    background-color: #737373;
+    color: #ffffff;
+}
+/*---------------------------------------------------general css*/
+/*---------------------------------------------------Navbar*/
+.top-navbar {
+    height: 60px;
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
