@@ -1,12 +1,16 @@
 /*---------------------------------------------------colors*/
 
-.top-navbar, .navbar-collapse, .promo {
+.top-navbar, .navbar-collapse, .promo, .info {
     background-color: #737373;
     color: #ffffff;
 }
 
 .top-right {
     color: #ffffff
+}
+
+.info-pictures {
+    background-color: #545454;
 }
 /*---------------------------------------------------general css*/
 /*---------------------------------------------------Navbar*/
@@ -24,7 +28,7 @@
     text-align: center;
     z-index: 999;
 }
-/*---------------------------------------------------Images*/
+/*---------------------------------------------------Images/image text*/
 
 .hero-img {
     width: 100%;
@@ -57,3 +61,30 @@
     right: 16px;
     font-size: 20px;
 }
+/*---------------------------------------------------Info section home page*/  
+
+.info {
+    width: 80%;
+    height: 250px;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-titles {
+    font-family: 'Playfair Display', sans-serif; 
+}
+
+.box-1 {
+   padding-top: 10px;
+}
+
+.box-container {
+    padding-top: 25px;
+}
+
+.box-2, .box-3 {
+    margin-top: 25px;
+}
+
