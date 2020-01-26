@@ -1,12 +1,19 @@
 /*---------------------------------------------------colors*/
-.top-navbar, .navbar-collapse {
+
+.top-navbar, .navbar-collapse, .promo {
     background-color: #737373;
     color: #ffffff;
 }
+
+.top-right {
+    color: #ffffff
+}
 /*---------------------------------------------------general css*/
 /*---------------------------------------------------Navbar*/
+
 .top-navbar {
     height: 60px;
+    font-family: 'Playfair Display', sans-serif; 
 }
 
 .navbar-brand {
@@ -15,4 +22,38 @@
 
 .navbar-collapse{
     text-align: center;
+    z-index: 999;
+}
+/*---------------------------------------------------Images*/
+
+.hero-img {
+    width: 100%;
+    height: 400px;
+}
+
+.promo {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    border-radius: 100%;
+    float: right;
+    margin-top: -175px;
+    margin-right: 25px;
+}
+
+.promo-text {
+    text-align: center;
+    padding-right: 22px;
+    padding-top: 20px;
+    font-size: 26px;
+    font-family: 'Playfair Display', sans-serif; 
+    transform: rotate(-30deg);
+}
+
+.top-right {
+    font-family: 'Playfair Display', sans-serif; 
+    position: absolute;
+    top: 62px;
+    right: 16px;
+    font-size: 20px;
 }
