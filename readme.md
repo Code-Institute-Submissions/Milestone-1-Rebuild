@@ -1,8 +1,18 @@
 # Viking Gyms
+
 Viking Gyms is a new website being built for a gym company who want to promote themselves and their services by providing details about their gym, how it works, who they are, memberships
 costs and images so people can get a quick look into the gym and see if it's the right place for them another thing they need to promote is anything else they offer like the 5 different classes they are currently running, benefits of becoming a member and how to use the gym even if your not a member.
 
 ## UX
+
+This website is aimed at fitness enthusiasts or people who just want to start using a gym for any given reason, with this website i want to give the customer everything they could need
+like:
+
+- social media links that will show the customer more about the gym be it pictures, promotions, information.
+- I want the website to provide information about any extras we provide like classes, and information on how we operate.
+- To provide information that stands out like the student discount or the £0 joining fee.
+- To provide detailed information about the memberships we offer, what's included and the process of joining.
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:

@@ -1,7 +1,12 @@
 /*---------------------------------------------------colors*/
 
-.top-navbar, .navbar-collapse, .promo, .info {
+.top-navbar, .navbar-collapse, .promo {
     background-color: #737373;
+    color: #ffffff;
+}
+
+.info {
+    background-color: #808080;
     color: #ffffff;
 }
 
@@ -43,6 +48,7 @@
     float: right;
     margin-top: -175px;
     margin-right: 25px;
+    border: 1px yellow solid;
 }
 
 .promo-text {
@@ -87,4 +93,5 @@
 .box-2, .box-3 {
     margin-top: 25px;
 }
+
 
