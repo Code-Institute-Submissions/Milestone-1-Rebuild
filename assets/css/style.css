@@ -5,16 +5,16 @@
     color: #ffffff;
 }
 
-.info {
+.info, .member-boxes {
     background-color: #808080;
     color: #ffffff;
 }
 
-.top-right, .social-media-link {
+.top-right, .social-media-link, .membership-title {
     color: #ffffff
 }
 
-.info-pictures, .gallery {
+.info-pictures, .gallery, .memberships, .button-toggle, .button-toggle-2 {
     background-color: #545454;
 }
 
@@ -143,7 +143,7 @@
     padding-top: 5px;
 }
 
-.footer-titles {
+.footer-titles, .member-titles, .membership-title {
     font-family: 'Playfair Display', sans-serif; 
 }
 
@@ -151,4 +151,38 @@
 
 .social-media-link:visited {
     color: #ffffff;
+}
+
+/*---------------------------------------------------Memperships Page*/
+
+.member-boxes {
+    width: 80%;
+    height: 450px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 5px;
+}
+
+.membership-title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.button-toggle {
+    width: 40%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 22px;
+    border: none;
+}
+
+.button-toggle-2 {
+    width: 40%;
+    height: 50px;
+    margin-top: 6px;
+    font-size: 22px;
+    border: none;
 }
