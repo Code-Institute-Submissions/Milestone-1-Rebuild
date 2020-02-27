@@ -10,11 +10,11 @@
     color: #ffffff;
 }
 
-.top-right, .social-media-link, .membership-title {
+.top-right, .social-media-link, .membership-title, .about-info, .classes-info {
     color: #ffffff
 }
 
-.info-pictures, .gallery, .memberships, .button-toggle, .button-toggle-2 {
+.info-pictures, .gallery, .memberships, .button-toggle, .button-toggle-2, .quick-info {
     background-color: #545454;
 }
 
@@ -143,13 +143,20 @@
     padding-top: 5px;
 }
 
-.footer-titles, .member-titles, .membership-title {
+.footer-titles, .member-titles, .membership-title, .class-heading {
     font-family: 'Playfair Display', sans-serif; 
 }
 
 /*---------------------------------------------------Special css*/
+.social-media-link:active {
+    color: #ffffff;
+}
 
 .social-media-link:visited {
+    color: #ffffff;
+}
+
+.social-media-link:link {
     color: #ffffff;
 }
 
@@ -189,4 +196,43 @@
 
 .box-mem-3 {
     margin-bottom: 25px;
+}
+
+
+/*---------------------------------------------------About-Us*/
+
+.about-info {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.classes-img-1 {
+    margin-top: 275px;
+    width: 100%;
+    height: 300px;
+}
+
+.classes-img {
+    width: 100%;
+    height: 300px;
+}
+
+.classes-info {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about-info-img {
+    width: 100%;
+    height: 600px;
+}
+/*---------------------------------------------------Media queries*/
+
+@media (max-width:629px) {
+  img.about-info-img {
+    display: none;
+  }
 }
