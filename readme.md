@@ -5,6 +5,10 @@ Code-Institute: User-centric-milestone-1
 Viking Gyms is a new website being built for a gym company who want to promote themselves and their services by providing details about their gym, how it works, who they are, memberships
 costs and images so people can get a quick look into the gym and see if it's the right place for them another thing they need to promote is anything else they offer like the 5 different classes they are currently running, benefits of becoming a member and how to use the gym even if your not a member.
 
+## wireframes
+
+Wireframes added to github files.
+
 ## UX
 
 This website is aimed at fitness enthusiasts or people who just want to start using a gym for any given reason, with this website i want to give the customer everything they could need
