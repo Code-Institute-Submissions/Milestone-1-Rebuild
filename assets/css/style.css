@@ -160,6 +160,10 @@
     color: #ffffff;
 }
 
+#mem-button:focus, #navbut {
+    outline: none;
+}
+
 /*---------------------------------------------------Memperships Page*/
 
 .member-boxes {
@@ -231,8 +235,29 @@
 }
 /*---------------------------------------------------Media queries*/
 
-@media (max-width:629px) {
+@media (max-width:900px) {
   img.about-info-img {
     display: none;
   }
+}
+
+/*-------------------------------Tablets*/
+
+@media (min-width:767px) {
+
+    /*--------home page*/
+    .info-text {
+       font-size: 20px;
+    }
+
+    .info-titles {
+        font-size: 32px;
+    }
+
+    .gallery-img {
+        height: 225px;
+    }
+
+    .gal-images {
+        height: 225px
 }
