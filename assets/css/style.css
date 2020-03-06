@@ -10,7 +10,7 @@
     color: #ffffff;
 }
 
-.top-right, .social-media-link, .membership-title, .about-info, .classes-info {
+.top-right, .social-media-link, .membership-title, .about-info, .classes-info, .nav-title {
     color: #ffffff
 }
 
@@ -21,22 +21,88 @@
 .promo-text {
     color: #ffd701;
 }
+
 /*---------------------------------------------------general css*/
 /*---------------------------------------------------Navbar*/
 
 .top-navbar {
-    height: 60px;
     font-family: 'Playfair Display', sans-serif; 
 }
 
-.navbar-brand {
-    font-size: 22px;
+.nav-title {
+    text-decoration: none;
+    font-size: 2em;
 }
 
-.navbar-collapse{
+.nav-1 {
+    width: 100%;
+    height: 55px;
+    background-color: #545454;
     text-align: center;
-    z-index: 999;
 }
+
+.nav-2 {
+    width: 100%;
+    height: 40px;
+    background-color: #686868;
+}
+
+.openbutton {
+    color: #ffffff;
+    font-size: 26px;
+    padding: 5px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #606060; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #DCDCDC;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #fff;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
 /*---------------------------------------------------Images/image text*/
 
 .hero-img {
@@ -67,7 +133,7 @@
 .top-right {
     font-family: 'Playfair Display', sans-serif; 
     position: absolute;
-    top: 62px;
+    top: 100px;
     right: 16px;
     font-size: 20px;
 }
@@ -247,17 +313,66 @@
 
     /*--------home page*/
     .info-text {
-       font-size: 20px;
+       font-size: 26px;
+    }
+
+    .tag-line {
+        font-size: 38px;
     }
 
     .info-titles {
-        font-size: 32px;
+        font-size: 38px;
     }
 
-    .gallery-img {
+    .gallery-img, .gal-images {
         height: 225px;
     }
 
-    .gal-images {
-        height: 225px
+    .info {
+        height: 300px;
+    }
+
+    .address-contact {
+        font-size: 16px;
+    }
+
+    /* Memberships page */
+
+    .member-boxes {
+        height: 600px;
+    }
+
+    .member-text {
+        font-size: 24px;
+    }
+
+    .member-title {
+        font-size: 26px;
+    }
+
+    /* About Us Page */
+
+    .about-info-title {
+        font-size: 26px;
+    }
+
+    .about-info-text {
+        font-size: 22px;
+    }
+
+    .classes-img, .classes-img-1 {
+        height: 450px;
+    }
+
+    .footer-titles {
+        font-size: 22px;
+    }
+
+    .classes-info {
+        font-size: 20px;
+    }
+
+    .class-heading {
+        font-size: 26px;
+    }
 }
