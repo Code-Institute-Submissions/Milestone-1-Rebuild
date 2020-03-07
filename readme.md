@@ -1,66 +1,74 @@
 # Viking Gyms
+Viking Gyms Project: User-Centric Frontend Development - Code Institute
 
-Code-Institute: User-centric-milestone-1
-
-Viking Gyms is a new website being built for a gym company who want to promote themselves and their services by providing details about their gym, how it works, who they are, memberships
-costs and images so people can get a quick look into the gym and see if it's the right place for them another thing they need to promote is anything else they offer like the 5 different classes they are currently running, benefits of becoming a member and how to use the gym even if your not a member.
-
-## wireframes
-
-Wireframes added to github files.
+This is my gym website which will represent Viking Gyms as show potential and existing customers who we are, how we operate and what we do.
 
 ## UX
+User stories
 
-This website is aimed at fitness enthusiasts or people who just want to start using a gym for any given reason, with this website i want to give the customer everything they could need
-like:
+As a gym enthusiast, I want to know what memberships the gym offers and if I get an introduction about it all.
 
-- social media links that will show the customer more about the gym be it pictures, promotions, information.
-- I want the website to provide information about any extras we provide like classes, and information on how we operate.
-- To provide information that stands out like the student discount or the £0 joining fee.
-- To provide detailed information about the memberships we offer, what's included and the process of joining.
+- Use the menu to head to the memberships page.
+- read the information to see what we offer.
+- click the price to find out important information like introductions.
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+As a fitness coach i would like to be able to find their social media and leaarn about their trainers/classes.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+- once on our website simply scroll to the bottom of the footer and you will find out social media links.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+As a businessman, I don't get time to go to the gym much so I was just wondering how your 24/7 gym worked.
 
-### Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+- use the menu to head to the about us page.
+- there you'll find information on our 24/7 system and how it works.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+### Strategy
+My goal in the design was to make all the information easy to find but keep a low minimalistic feel to the website.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+###  Scope
+For the customer, I wanted to provide them with the information they needed to decide about joining Viking gyms.
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+### Structure
+In the 'about us' i wanted to provide them with enough info to reduce their questions.
 
-## JQuery
-I have been testing my project throughout it's stages using:
+### Skeleton
 
- - Dev tool Audits
- - W3C Validator (CSS & HTML)
+Wireframes are in the github files
+
+### Surface
+The Gray color scheme was chosen to give the website a modern feel.
+
+### Technologies
+HTML
+CSS
+Bootstrap (4.4.1)
+
+## Features Left to Implement
+In the future, I would like to Implement google maps and add a contact form so we can answer any questions.
+
+## Testing
+The User stories achieved the intended outcome of providing them with the information they needed.
+
+Other testing methods i used are,
+
+Dev tool Audits
+W3C Validator
+
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+I used Github pages to run this project.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+- When on the repository on github click settings.
+- scroll down to github pages.
+- Set source to master branch.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Link to github pages - https://hylia358.github.io/Milestone-1-Rebuild/
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/Hylia358/Milestone-1-Rebuild into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ## Credits
 
-### Content
-The text for section Y was copied from the Wikipedia article Z
-
 ### Media
-All the photos used in this project were obtained from canva
+All photos were obtained from canva
+
+### Acknowledgements
+The javascript for the sidenav was from W3schools
