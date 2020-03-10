@@ -31,8 +31,17 @@ For the customer, I wanted to provide them with the information they needed to d
 In the 'about us' i wanted to provide them with enough info to reduce their questions.
 
 ### Skeleton
+![home 1](/assets/Wireframes/home-1.png)
+![home 2](/assets/Wireframes/home-2.png)
+![home 3](/assets/Wireframes/home-3.png)
+
+![memberships 1](/assets/Wireframes/member-1.png)
+![memberships 2](/assets/Wireframes/member-2.png)
 
 ![About Us part 1](/assets/Wireframes/About-us-1.png)
+![About Us part 2](/assets/Wireframes/about-us-2.png)
+![About Us part 3](/assets/Wireframes/about-us-3.png)
+
 
 Wireframes are in the github files
 
