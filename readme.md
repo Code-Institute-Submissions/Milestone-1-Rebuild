@@ -32,6 +32,8 @@ In the 'about us' i wanted to provide them with enough info to reduce their ques
 
 ### Skeleton
 
+![About Us part 1](/assets/Wireframes/About-us-1.png)
+
 Wireframes are in the github files
 
 ### Surface
