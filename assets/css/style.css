@@ -137,6 +137,10 @@
     right: 16px;
     font-size: 20px;
 }
+
+.gal-images, .about-info-img, .classes-img, .classes-img-1 {
+    border-radius: 5%;
+}
 /*---------------------------------------------------Info section / Gallery home page*/  
 
 .info {
@@ -193,6 +197,13 @@
 .footer {
     text-align: center;
     margin-top: -3px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  text-align: center;
 }
 
 .social-media-link {
@@ -263,7 +274,8 @@
 .button-toggle-2 {
     width: 40%;
     height: 50px;
-    margin-top: 6px;
+    bottom: 0px;
+    position: relative;
     font-size: 22px;
     border: none;
     text-decoration: none;
@@ -273,7 +285,9 @@
     margin-bottom: 25px;
 }
 
-
+.member-text {
+    line-height: 60px;
+}
 /*---------------------------------------------------About-Us*/
 
 .about-info {
